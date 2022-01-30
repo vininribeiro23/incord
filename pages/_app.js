@@ -29,7 +29,7 @@ function GlobalStyle() {
   
 
 export default function  MyApp({Component, pageProps }){
-    console.log('roda em todas paginas');
+    //console.log('roda em todas paginas');//
     return(
         <>
         <GlobalStyle />
