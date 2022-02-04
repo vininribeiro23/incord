@@ -74,7 +74,7 @@ function Title(props){
               as="form"
               onSubmit={function (infoDoEvento){
                   infoDoEvento.preventDefault();
-                  roteamento.push('/chat')
+                  roteamento.push(`/chat?username=${username}`)
               }}
               styleSheet={{
                 display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
